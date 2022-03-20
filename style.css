@@ -1,8 +1,4 @@
-/*
-	The7 by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /*
 
@@ -307,7 +303,7 @@ blockquote p {
 ********************************************************* */
 
 #top-header {
-  position: fixed;
+  background-color: black;
   z-index: 1000;
   width: 100%;
   padding: 23px 0;
@@ -325,19 +321,14 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 190px;
+  height: 135px;
   text-indent: -9999px;
   background: url(images/logo.svg) no-repeat;
-  background-size: 104px 46px;
+  background-size: 190px 135px;
+  background-color: white;
 }
 
-.logo:hover, .logo:focus {
-  -webkit-animation: rubberBand 0.5s 1;
-     -moz-animation: rubberBand 0.5s 1;
-       -o-animation: rubberBand 0.5s 1;
-          animation: rubberBand 0.5s 1;
-}
 
 .header-default {
   background: #2C2D31;
@@ -511,7 +502,8 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('images/home.jpg');
+  /* background-image: url('images/gamescreens/gamescreen2.png'); */
+  background-color: black ;
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -645,6 +637,20 @@ blockquote p {
   text-align: center;
 }
 
+.portfolio-item-wrapper{
+   justify-items: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.portfolio-items{
+  width: fit-content;
+}
+
 .portfolio-items .mix {
   display: none;
 }
@@ -666,7 +672,7 @@ blockquote p {
   -webkit-border-radius: 30px;
      -moz-border-radius: 30px;
           border-radius: 30px;
-}
+}icon-clock
 
 .filters .filter.active,
 .filters .filter:hover {
@@ -1641,6 +1647,7 @@ footer p, footer a {
   .logo-wrap {
     float: left;
     width: 100%;
+    height: fit-content;
     margin-bottom: .5em;
   }
 
